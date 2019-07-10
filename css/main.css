@@ -21,7 +21,7 @@ h1, h2, h4, h5 {
 }
 
 h2 {
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 .jumbotron h1 {
@@ -37,42 +37,109 @@ h2 {
     font-style: italic;
 }
 
+.jumbotron .btn-custom {
+    color: #fff;
+    background-color: #5BBCC6;
+}
+
 hr {
-    margin: 20px 17% 15px;
+    margin: 15px 17% 10px;
 }
 
 #btnServices {
     background-color: whitesmoke;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 
 #btnServices:hover {
-    background-color: #454d59;
+    background-color: #5BBCC6;
     color: white;
 }
 
-#light {
+.light-heading {
     font-weight: 400;
     letter-spacing: 3px;
+    margin-bottom: 0;
 }
 
 #about {
     margin-bottom: 0;
     letter-spacing: 3px;
+    color: #5BBCC6;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #title-about {
-    padding-left: 4%;
-    text-align: end;
+    padding: 2%;
+    justify-content: center;
 }
 
 #aboutText {
     text-align: justify;
+    padding: 1% 5%;
 }
 
 #about-section {
-    padding-top: 10%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+#testimonial-container {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+#testimonial {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    text-align: left;
+    box-shadow: none !important;
+}
+
+#testimonial img {
+    max-width: 100%;
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+#testimonial blockquote {
+    margin: 0;
+    display: block;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fafafa;
+    padding: 30px 35px 65px 35px;
+    font-size: 14px;
+    margin: 0 0 -50px;
+    line-height: 1.6em;
+    box-shadow: 9px 10px 9px 0px rgba(0, 0, 0, 0.15);
+}
+
+#testimonial .author {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+#testimonial .author h5 {
+    opacity: 0.8;
+}
+
+#testimonial .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
 }
 
 @media (min-width: 576px){
@@ -81,6 +148,9 @@ hr {
     }
     .jumbotron {
         background-position: top center;
+    }
+    h2 {
+        letter-spacing: 1.6px;
     }
 }
 
@@ -96,6 +166,9 @@ hr {
     }
     .jumbotron p { 
         margin-bottom: 5px;
+    }
+    #about-section {
+        padding-top: 3%;
     }
 }
 
