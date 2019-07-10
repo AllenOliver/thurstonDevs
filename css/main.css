@@ -37,6 +37,44 @@ h2 {
     font-style: italic;
 }
 
+hr {
+    margin: 20px 17% 15px;
+}
+
+#btnServices {
+    background-color: whitesmoke;
+    margin-bottom: 7px;
+}
+
+#btnServices:hover {
+    background-color: #454d59;
+    color: white;
+}
+
+#light {
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+#about {
+    margin-bottom: 0;
+    letter-spacing: 3px;
+}
+
+#title-about {
+    padding-left: 4%;
+    text-align: end;
+}
+
+#aboutText {
+    text-align: justify;
+}
+
+#about-section {
+    padding-top: 10%;
+    padding-bottom: 3%;
+}
+
 @media (min-width: 576px){
     .jumbotron .header-contact {
         display: block;
