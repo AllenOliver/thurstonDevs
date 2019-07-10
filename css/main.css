@@ -1,0 +1,248 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px;
+}
+
+.jumbotron {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header-img.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 58%;
+    height: 350px;
+    padding-top: 18%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+h1, h2, h4, h5 {
+    font-weight: 700;
+}
+
+h2 {
+    letter-spacing: 1px;
+}
+
+.jumbotron h1 {
+    font-weight: 700;
+}
+
+.jumbotron p { 
+    margin-bottom: 4px;
+}
+
+.header-contact {
+    display: none;
+    font-style: italic;
+}
+
+.jumbotron .btn-custom {
+    color: #fff;
+    background-color: #5BBCC6;
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #5BBCC6;
+}
+
+a {
+    color: #5BBCC6;;
+}
+
+hr {
+    margin: 15px 17% 10px;
+}
+
+#btnServices {
+    background-color: whitesmoke;
+    margin-bottom: 12px;
+}
+
+#btnServices:hover {
+    background-color: #5BBCC6;
+    color: white;
+}
+
+.light-heading {
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+#about {
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    color: #5BBCC6;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#title-about {
+    padding: 2%;
+    justify-content: center;
+}
+
+#aboutText {
+    text-align: justify;
+    padding: 1% 5%;
+}
+
+#about-section {
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+#testimonial-container {
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+#testimonial {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    text-align: left;
+    box-shadow: none !important;
+}
+
+#testimonial img {
+    max-width: 100%;
+    height: 70px;
+    width: 70px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+
+#testimonial blockquote {
+    margin: 0;
+    display: block;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fafafa;
+    padding: 30px 35px 65px 35px;
+    font-size: 14px;
+    margin: 0 0 -50px;
+    line-height: 1.6em;
+    box-shadow: 9px 10px 9px 0px rgba(0, 0, 0, 0.15);
+}
+
+#testimonial .author {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+#testimonial .author h5 {
+    opacity: 0.8;
+}
+
+#testimonial .author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
+}
+
+div a.fa {
+    padding: 11px;
+    margin-left: 3px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  } 
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+@media (min-width: 576px){
+    .jumbotron .header-contact {
+        display: block;
+    }
+    .jumbotron {
+        background-position: top center;
+    }
+    h2 {
+        letter-spacing: 1.6px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .jumbotron {
+        padding-top: 12%;
+    }
+}
+
+@media (min-width: 992px) {
+    .jumbotron {
+        padding-top: 8%;
+    }
+    .jumbotron p { 
+        margin-bottom: 5px;
+    }
+    #about-section {
+        padding-top: 3%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .jumbotron {
+        height: 400px;
+    }
+    .jumbotron {
+        padding-top: 13%;
+        padding-bottom: 20%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .jumbotron .container {
+        padding-top: 4%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .jumbotron h1 {
+        font-size: 4rem;
+    }
+    .jumbotron p {
+        font-size: 1.6rem;
+    }
+    .jumbotron .btn {
+        font-size: 1.5rem;
+    }
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .card-body {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .jumbotron h1 {
+        font-size: 2.5rem;
+    }
+    .jumbotron p {
+        font-size: 1rem;
+    }
+}
