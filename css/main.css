@@ -3,6 +3,7 @@ body {
     font-size: 15px;
 }
 
+/* Home Page */
 .jumbotron {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header-img.jpg');
 	background-size: cover;
@@ -71,27 +72,12 @@ hr {
     margin-bottom: 0;
 }
 
-#about {
+.custom-heading {
     margin-bottom: 0;
     letter-spacing: 3px;
     color: #5BBCC6;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-#title-about {
-    padding: 2%;
-    justify-content: center;
-}
-
-#aboutText {
-    text-align: justify;
-    padding: 1% 5%;
-}
-
-#about-section {
-    padding-top: 5%;
-    padding-bottom: 1%;
 }
 
 #testimonial-container {
@@ -159,17 +145,43 @@ div a.fa {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-  }
+}
   
-  .fa-facebook {
+.fa-facebook {
     background: #3B5998;
     color: white;
-  } 
+} 
 
-  .fa-instagram {
+.fa-instagram {
     background: #125688;
     color: white;
-  }
+}
+
+/* About Page/Section */
+.title-about {
+    padding: 2%;
+    justify-content: center;
+}
+
+.about-text {
+    text-align: center;
+    justify-content: center;
+    padding: 1% 5%;
+}
+
+.about-section {
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.about-img {
+    justify-content: center;
+}
+
+#about-img {
+    max-width: 280px;
+    height: auto;
+}
 
 @media (min-width: 576px){
     .jumbotron .header-contact {
@@ -187,6 +199,18 @@ div a.fa {
     .jumbotron {
         padding-top: 12%;
     }
+}
+
+@media (min-width:768px) {
+    .about-img {
+        float: left;
+        justify-content: none;
+        margin-bottom: 30px;
+    }
+    p {
+        margin-top: 15px;
+    }
+
 }
 
 @media (min-width: 992px) {
