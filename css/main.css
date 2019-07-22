@@ -3,6 +3,7 @@ body {
     font-size: 15px;
 }
 
+/* Home Page */
 .jumbotron {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/header-img.jpg');
 	background-size: cover;
@@ -77,21 +78,6 @@ hr {
     color: #5BBCC6;
     padding-left: 10px;
     padding-right: 10px;
-}
-
-.title-about {
-    padding: 2%;
-    justify-content: center;
-}
-
-.about-text {
-    text-align: justify;
-    padding: 1% 5%;
-}
-
-.about-section {
-    padding-top: 5%;
-    padding-bottom: 1%;
 }
 
 #testimonial-container {
@@ -171,8 +157,29 @@ div a.fa {
     color: white;
 }
 
+/* About Page/Section */
+.title-about {
+    padding: 2%;
+    justify-content: center;
+}
+
+.about-text {
+    text-align: center;
+    justify-content: center;
+    padding: 1% 5%;
+}
+
+.about-section {
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.about-img {
+    justify-content: center;
+}
+
 #about-img {
-    max-width: 80%;
+    max-width: 280px;
     height: auto;
 }
 
@@ -192,6 +199,18 @@ div a.fa {
     .jumbotron {
         padding-top: 12%;
     }
+}
+
+@media (min-width:768px) {
+    .about-img {
+        float: left;
+        justify-content: none;
+        margin-bottom: 30px;
+    }
+    p {
+        margin-top: 15px;
+    }
+
 }
 
 @media (min-width: 992px) {
